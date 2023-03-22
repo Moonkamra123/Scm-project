@@ -1,0 +1,2046 @@
+Naman Sharma, [14-12-2022 22:03]
+print("SELECT THE PROFESSION OF THE PERSON TO WHOM YOU WISH TO FIX YOUR APPOIMENT")
+print('''
+1-ENGINEER
+2-D0CTOR
+3-PROFESSOR
+4-LAWYER
+5-BODYBUILDER''')
+a=int(input("Enter Your Choice: "))
+if a==1:
+    print('''***Names of Engineers Available ***
+    1-Er. Akash Gupta
+    2-Er.Naman Sharma
+    3-Er.Shaurya Mor
+    4-Er.Shaksham Sabarwal
+    5-Er.Tanishq Birania''')
+    b=int(input("Select a Engineer you Wish to Meet: "))
+    if b==1:
+        from tabulate import tabulate
+        bio_akash=[['********You have chosen Er.Akash Gupta.********'],
+                   ['i','Er.Akash Gupta is a B-Tech(CSE) graduate from UPES Dehradun,'],
+                   ['ii','He graduated in the year 2010'],
+                   ['iii','He got placed in a new start up called GOINDIA'],
+                   ['iv','which is software company that makes software for mobile phones.'],
+                   ['v','He have 12 years of work experienLce']]          
+        print(tabulate(bio_akash,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF Er.Akash Gupta:''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['2','TUESDAY','N/A','N/A'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c!=0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+            quit()
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Er Akash Gupta'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','akashgupta123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            print("Er.AKASH GUPTA IS NOT AVAILABLE ON TUESDAY")
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Er Akash Gupta'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','akashgupta123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Er Akash Gupta'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','akashgupta123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Er Akash Gupta'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','akashgupta123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Er.AKASH GUPTA IS NOT AVAILABLE ON SATURDAY")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Er.AKASH GUPTA IS NOT AVAILABLE ON SUNDAY")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+
+            
+
+        
+
+
+
+    if b==2:     
+        from tabulate import tabulate
+        bio_naman=[['********You have chosen Er.Naman Sharma.********'],
+                   ['i','Er.Naman Sharma is a B-Tech(CSE) graduate from Chitkara uinversity Rajpura,'],
+                   ['ii','He graduated in the year 2015'],
+                   ['iii','He got placed in Microsoft with the starting salary of 70 LPA'],
+                   ['iv','He have 7 years of work experience']]          
+        print(tabulate(bio_naman,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF Er.Naman sharma:''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['6','SATURDAY','N/A','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))
+        if c>0:
+            print("INVALID SELECTION!!!")           
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Er Naman Sharma'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','namansharma1121@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Er Naman Sharma'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','akashgupta123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Er Naman sharma'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','akashgupta123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Er Naman sharma'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','akashgupta123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Er.Naman Sharma'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','akashgupta123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Er.NAMAN SHARMA IS NOT AVAILABLE ON SATURDAY")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Er.NAMAN SHARMA IS NOT AVAILABLE ON SUNDAY")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+
+Naman Sharma, [14-12-2022 22:03]
+elif b==3:
+        from tabulate import tabulate
+        bio_shaurya=[['********You have chosen Er.Shaurya Mor.********'],
+                   ['i','Er.Shaurya Mor is a B-Tech(CSE) graduate from Thapar uinversity,'],
+                   ['ii','He graduated in the year 2017'],
+                   ['iii','He got placed in Microsoft with the starting salary of 50 LPA'],
+                   ['iv','He have 5 years of work experience']]          
+        print(tabulate(bio_shaurya,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF Er.Shaurya Mor:''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['6','SATURDAY','N/A','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))
+        if c>0:
+            print("INVALID SELECTION!!!")           
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Er.Shaurya Mor'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shauryamor20@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Er.Shaurya Mor'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shauryamor20@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Er.Shaurya Mor'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shauryamor20@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Er.Shaurya Mor'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shauryamor20@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Er.Shaurya Mor'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shauryamor20@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Er.Shaurya Mor IS NOT AVAILABLE ON SATURDAY")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Er.Shaurya Mor IS NOT AVAILABLE ON SUNDAY")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+
+    
+
+
+
+    elif b==4:
+        from tabulate import tabulate
+        bio_shaksham=[['********You have chosen Er.Shaurya Mor.********'],
+                   ['i','Er.Shaksham sabarwal is a B-Tech(CSE) graduate from Amity uinversity Noida,'],
+                   ['ii','He graduated in the year 2013'],
+                   ['iii','He got placed in Google with the starting salary of 49 LPA'],
+                   ['iv','He have 9 years of work experience']]          
+        print(tabulate(bio_shaksham,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF Er.Shaksham Sabarwal:''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['6','SATURDAY','N/A','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))
+        if c>0:
+            print("INVALID SELECTION!!!")           
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Er.Shaksham Sabarwal'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shakshamsabarwal31@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Er.Shaksham Sabarwal'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shakshamsabarwal31@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Er.Shaksham Sabarwal'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shakshamsabarwal31@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Er.Shaksham Sabarwal'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shakshamsabarwal31@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Er.Shaksham Sabarwal'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shakshamsabarwal31@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Er.Shaksham Sabarwal IS NOT AVAILABLE ON SATURDAY")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Er.Shaksham Sabarwal IS NOT AVAILABLE ON SUNDAY")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+
+Naman Sharma, [14-12-2022 22:03]
+elif b==5:
+        from tabulate import tabulate
+        bio_tanishq=[['********You have chosen Er.Shaurya Mor.********'],
+                   ['i','Er.Tanishq Birania is a B-Tech(CSE) graduate from VIT Vellore'],
+                   ['ii','He graduated in the year 2013'],
+                   ['iii','He got placed in Google with the starting salary of 52 LPA'],
+                   ['iv','He have 9 years of work experience']]          
+        print(tabulate(bio_tanishq,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF Er.Tanishq Birania:''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['6','SATURDAY','N/A','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))
+        if c>0:
+            print("INVALID SELECTION!!!")           
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Er.Tanishq Birania'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tanishqbirania40@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Er.Tanishq Birania'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tanishqbirania40@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Er.Tanishq Birania'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tanishqbirania40@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Er.Tanishq Birania'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tanishqbirania40@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Er.Tanishq Birania'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tanishqbirania40@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Er.Tanishq Birania IS NOT AVAILABLE ON SATURDAY")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Er.Tanishq Birania IS NOT AVAILABLE ON SUNDAY")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    
+
+
+    if b>5:
+        print("Invalid Selection!!!!!")
+    
+            
+if a==2:
+    print('''*** Names of Doctors Available ***
+    1-Dr.Shushmita Patel
+    2-Dr.Tarun Dutta
+    3-Dr.Manoj Malhotra
+    4-Dr.Ashok chillar
+    5-Dr.Shreyas Rai''')
+    b1=int(input("Select a Doctor you Wish to Meet: "))
+    if b1==1:
+        from tabulate import tabulate
+        bio_shushmita=[['********You have chosen Dr.Shushmita Patel.********'],
+                   ['i',"Dr.Shushmita Patel is MBBS graduate from King George's Medical University"],
+                   ['ii','She graduated in the year 2007'],
+                   ['iii',"'She Completed Ms in Surgery from Kasturba Medical College in the year 2011'"],
+                   ['iv','She became a well know Surgeon after completing MCh in Cardiothoracic Surgery' ],
+                   ['','from Harvard University. United States|Cambridge (U.S.)'],
+                   ['v','She have 7 years of work experience']]          
+        print(tabulate(bio_shushmita,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF Dr.Shushmita Patel:''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','1000'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Dr.SHUSHMITA PATEL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shushmitapatel23@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Dr.SHUSHMITA PATEL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shushmitapatel23@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Dr.SHUSHMITA PATEL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shushmitapatel23@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Dr.SHUSHMITA PATEL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shushmitapatel23@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Dr.SHUSHMITA PATEL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','shushmitapatel23@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Dr.Shushmita Patel Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Dr.Shushmita Patel Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1==2:
+        from tabulate import tabulate
+        bio_shushmita=[['********You have chosen Dr.Tarun Dutta.********'],
+                   ['i',"Dr.Tarun Dutta is MBBS graduate from All India Institute Of Medical Sciences"],
+                   ['ii','He graduated in the year 2009'],
+                   ['iii','He became a well know Surgeon after completing MD FROM All India Institute Of Medical Sciences' ],
+                   ['iv','He have 9 years of work experience']]          
+        print(tabulate(bio_shushmita,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF : Dr.TARUN DUTTA''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Dr.TARUN DUTTA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tarun54@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Dr.TARUN DUTTA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tarun54@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Dr.TARUN DUTTA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tarun54@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Dr.TARUN DUTTA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tarun54@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Dr.TARUN DUTTA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','tarun54@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Dr.Tarun Dutta Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Dr.Tarun Dutta Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1==3:
+        from tabulate import tabulate
+        bio_shushmita=[['********You have chosen Dr.Manoj Malhotra.********'],
+                   ['i',"Dr.Manoj Malhotra is MBBS graduate from All India Institute Of Medical Sciences"],
+                   ['ii','He graduated in the year 2009'],
+                   ['iii','He became a well know Surgeon after completing MD FROM All India Institute Of Medical Sciences' ],
+                   ['iv','He have 9 years of work experience']]          
+        print(tabulate(bio_shushmita,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF :Dr.MANOJ MALHOTRA''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Dr.MANOJ MALHOTRA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','manojmalhotra1123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Dr.MANOJ MALHOTRA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','manojmalhotra1123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Dr.MANOJ MALHOTRA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','manojmalhotra1123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Dr.MANOJ MALHOTRA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','manojmalhotra1123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Dr.MANOJ MALHOTRA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','manojmalhotra1123@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Dr.Manoj Malhotra Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Dr.Manoj Malhotra Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1==4:
+        from tabulate import tabulate
+        bio_shushmita=[['********You have chosen Dr.Ashok Chillar .********'],
+                   ['i',"Dr.Ashok Chillar is MBBS graduate from All India Institute Of Medical Sciences"],
+                   ['ii','He graduated in the year 2009'],
+                   ['iii','He became a well know Surgeon after completing MD FROM All India Institute Of Medical Sciences' ],
+                   ['iv','He have 9 years of work experience']]          
+        print(tabulate(bio_shushmita,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF :Dr.ASHOK CHILLAR''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Dr.ASHOK CHILLAR'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','ashokchillar1717@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Dr.ASHOK CHILLAR'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','ashokchillar1717@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Dr.ASHOK CHILLAR'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','ashokchillar1717@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Dr.ASHOK CHILLAR'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','ashokchillar1717@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Dr.ASHOK CHILLAR'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','ashokchillar1717@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Dr.Ashok Chillar Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Dr.Ashok Chillar Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1==5:
+        print("D.SHREYAS RAI IS NOT AVAILABLE ")
+        print("SORRY FOR THR INCONVENIENCE")
+    if b1>5:
+        print("INVALID SELECTION!!!!!")
+
+
+if a==3:
+    print("NO PROFESSORAVAILABLE RIGHT NOW")
+    print("PLEASE CHECK AFTER SOMETIME")
+
+Naman Sharma, [14-12-2022 22:03]
+if a==4:
+    print('''***Names of Lawyers Available
+    1-Adv.Chandan Bhatt
+    2-Adv.Kusum Rai
+    3-Adv.Santosh Patel
+    4-Adv.Sanjay Tripathi
+    5-Adv.Sandeep Tiwari
+    ''')
+    b1=int(input("PLEASE SELECT A LAWYER: "))
+    if b1==1:
+        from tabulate import tabulate
+        bio_shushmita=[['********You have chosen Adv.Chandan Bhatt.********'],
+                   ['i',"Adv.Chandan Bhatt is LLB graduate from ILS Law College"],
+                   ['ii','He graduated in the year 2005'],
+                   ['iii',"'After graduation he  Completed  LLM from National Law University, Jodhpur in the year 2010'"],
+                   ['iv','He became a well know Adovate  after he won agaist a drug dealer in mumbai' ],
+                   ['v','He have 12 years of work experience']]          
+        print(tabulate(bio_shushmita,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF Adv.Chandan Bhatt:''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))
+               
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Adv.CHANDAN BHATT'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','chandanbhatt343@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Adv.CHANDAN BHATT'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','chandanbhatt343@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Adv.CHANDAN BHATT'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','chandanbhatt343@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+Naman Sharma, [14-12-2022 22:03]
+from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Adv.CHANDAN BHATT'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','chandanbhatt343@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Adv.CHANDAN BHATTL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','chandanbhatt343@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Adv.Chandan Bhatt Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Adv.Chandan Bhatt Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1==2:
+        from tabulate import tabulate
+        bio_kusum=[['********You have chosen Adv.Kusum Rai.********'],
+                   ['i',"Adv.Kusum Rai is LLB graduate from Symbiosis Law School"],
+                   ['ii','She graduated in the year 2010'],
+                   ['iii','She became a well know Advocate after completing his LLM from National Law School of India University 2012' ],
+                   ['iv','She have 10 years of work experience']]          
+        print(tabulate(bio_kusum,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF : Adv.KUSUM RAI''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','1500'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Adv.KUSUM RAI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','kusum3456@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Adv.KUSUM RAI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','kusum3456@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Adv.KUSUM RAI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','kusum3456@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Adv.KUSUM RAI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','kusum3456@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Adv.KUSUM RAI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','kusum3456@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Adv.Kusum Rai Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Adv.Kusum Rai Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1==3:
+        from tabulate import tabulate
+        bio_shushmita=[['********You have chosen Adv.Santosh Patel ********'],
+                   ['i',"Adv.Santosh Patel is LLB graduate from ILS Law College"],
+                   ['ii','He graduated in the year 2003'],
+                   ['iii','After completing his LLB he complete LLM from NALSAR University of Law in 2006' ],
+                   ['iv','He became a well know Lawyer after winning his toughest case against one of best known lawyer Adv.Naman Rai']]          
+        print(tabulate(bio_shushmita,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF :Adv.SANTOSH PATEL''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','5000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','5000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','5000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','5000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','5000'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Adv.SANTOSH PATEL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','santoshpatel567@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Adv.SANTOSH PATEL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','santoshpatel567@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Adv.SANTOSH PATEL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','santoshpatel567@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Adv.SANTOSH PATEL'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','santoshpatel567@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Adv.SANTOSH PATELA'],
+                 ['FOR ANY QUERRIES FEEL FREE TO santoshpatel567@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print(" Adv.Santosh Patel Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Adv.Santosh Patel Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1==4:
+        from tabulate import tabulate
+        bio_shushmita=[['********You have chosen Adv.Sanjay Tripathi.********'],
+                       ['i',"Adv.Sanjay Tripathi is LLB graduate from Symbiosis Law School"],
+                       ['ii','She graduated in the year 2013'],
+                       ['iii','She became a well know Advocate after completing his LLM from National Law School of India University 2015' ],
+                       ['iv','She have 7 years of work experience']]          
+        print(tabulate(bio_shushmita,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF :Adv.SANJAY TRIPATHI''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:03]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Adv.SANJAY TRIPATHIR'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','asanjay87@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Adv.SANJAY TRIPATHI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','asanjay87@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Adv.SANJAY TRIPATHI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','asanjay87@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Adv.SANJAY TRIPATHI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','asanjay87@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:08]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Adv.SANJAY TRIPATHI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','asanjay87@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Adv.Sanjay Tripathi Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Adv.Sanjay Tripathi Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1==5:
+        from tabulate import tabulate
+        bio_shushmita=[['********You have chosen Adv.Sandeep Tiwari.********'],
+                       ['i',"Adv.Sandeep Tiwari is LLB graduate from Symbiosis Law School"],
+                       ['ii','He graduated in the year 2004'],
+                       ['iii','He became a well know Advocate after completing his LLM from BOSTON LAW COLLEGE IN THE YEAR 2007' ],
+                       ['iv','She have 7 years of work experience']]          
+        print(tabulate(bio_shushmita,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF :Adv.SANDEEP TIWARI''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:08]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Adv.SANJAY TRIPATHI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','asanjay87@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Adv.Sanjay Tripathi Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Adv.Sanjay Tripathi Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1==5:
+        from tabulate import tabulate
+        bio_shushmita=[['********You have chosen Adv.Sandeep Tiwari.********'],
+                       ['i',"Adv.Sandeep Tiwari is LLB graduate from Symbiosis Law School"],
+                       ['ii','He graduated in the year 2004'],
+                       ['iii','He became a well know Advocate after completing his LLM from BOSTON LAW COLLEGE IN THE YEAR 2007' ],
+                       ['iv','She have 7 years of work experience']]          
+        print(tabulate(bio_shushmita,headers="firstrow",tablefmt="fancy_grid"))
+        c=int(input("PRESS 0 TO CONTINUE: "))
+        if c==0:
+            print('''
+            WEEKLY SCHEDULE OF :Adv.SANDEEP TIWARI''')
+            from tabulate import tabulate
+            time_and_day=[['S.No.','DAY','AVAILABILITY','TIME','FEES'],
+                          ['1','MONDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['2','TUESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['3','WEDNESDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['4','THURSDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['5','FRIDAY','AVAILABLE','TO BE DISCUSSED','2000'],
+                          ['6','SATURDAY','N/A','N/A'],
+                          ['7','SUNDAY','N/A','N/A']]
+            print(tabulate(time_and_day,headers="firstrow",tablefmt="fancy_grid"))   
+        if c>0:
+            print("INVALID SELECTION!!!")
+                       
+            print('''
+
+
+            ''')
+
+        d=int(input("SELECT THE DAY FOR APPOINTMENT: "))
+        if d==1:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','MONDAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==2:
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','TUESDAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")    
+        if d==3:
+
+            from tabulate import tabulate
+
+Naman Sharma, [14-12-2022 22:08]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Adv.Sandeep Tiwari Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Adv.Sandeep Tiwari Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1>5:
+        print("INVALID SELECTION!!!!!")
+
+
+
+
+elif a==5:
+    print("NO Bodybuilder Available at the time.")
+    print("PLEASE CHECK AFTER SOMETIME")
+if a>5:
+    print("INVALID SELECTION!!!")
+
+Naman Sharma, [14-12-2022 22:08]
+name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','WEDNESDAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==4:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','THURSDAAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==5:
+
+            from tabulate import tabulate
+
+            name=print("ENTER YOUR NAME: ")
+            name=input()
+            print('''-----------------------------------------------------------------------------------------
+            
+            
+            ''')
+            c=(name.upper())
+            print("CLIENT NAME:",c)
+            a_f=[['YOUR APPOINTMENT HAVE BEEN FIXED',''],
+                 ['DAY OF APPOINTMENT','FRIDAY'],
+                 ['APPOINTER NAME','Adv.SANDEEP TIWARI'],
+                 ['FOR ANY QUERRIES FEEL FREE TO CONTACT:','sandeeptiwari99@gmail.comsandeeptiwari99@gmail.com']]
+            print(tabulate(a_f,headers="firstrow",tablefmt="fancy_grid"))
+            print("HAVE A GOOD DAY")
+        if d==6:
+            print("Adv.Sandeep Tiwari Is Not Available On Saturday")
+            print("HAVE A GOOD DAY")
+        if d==7:
+            print("Adv.Sandeep Tiwari Is Not Available On ")
+            print("HAVE A GOOD DAY")       
+        if d>7:
+            print("INVALID SELECTION!!!!!!")
+    if b1>5:
+        print("INVALID SELECTION!!!!!")
+
+
+
+
+elif a==5:
+    print("NO Bodybuilder Available at the time.")
+    print("PLEASE CHECK AFTER SOMETIME")
+if a>5:
+    print("INVALID SELECTION!!!")
